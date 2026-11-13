@@ -39,7 +39,7 @@ cd YOUR_REPOSITORY
 Run the script and provide a URL as an argument:
 
 ```bash
-node speedtest.js https://example.com/image.png
+node stest.js https://example.com/image.png
 ```
 
 You can use any publicly accessible URL that returns a downloadable resource.
@@ -90,7 +90,3 @@ Speed (Mbps) = (Total Bytes × 8) / Total Time (seconds) / 1,000,000
 - Only successful requests are included in the statistics.
 - Download speed may vary depending on network conditions, server response time, caching, and resource size.
 - The result represents the measured throughput for the selected URL, not necessarily the maximum speed of your internet connection.
-
-## License
-
-This project is available under the MIT License.
