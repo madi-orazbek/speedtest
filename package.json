@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-internet-speed-test",
+  "version": "1.0.0",
+  "description": "A simple internet download speed test using Node.js",
+  "type": "module",
+  "scripts": {
+    "start": "node speedtest.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
